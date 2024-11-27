@@ -1,0 +1,25 @@
+Code: // Practical 13: Create Program For Table 
+#include <stdio.h> 
+void main() 
+{ 
+    int r,c; 
+ 
+    // Taking The Size Of Table As A Input From User 
+    printf("Enter The Size Of Table Vertically:"); 
+    scanf("%d", &c); 
+    printf("Enter The Size Of Table Horizontally:"); 
+    scanf("%d", &r); 
+    printf("The Table of (%d X %d)\n", r,c); 
+    // Here First Loop Stands For Rows In Table. 
+    for(int i = 1 ; i<=r ; i++) 
+    { 
+        //Here Inner Loop Stands For Column In Table. 
+        for(int j = 1 ; j<=c ; j++)
+        { 
+} 
+printf("%3d\t" , i*j); 
+printf("\n"); 
+}
+printf("24ce032_TARANG");
+
+}
